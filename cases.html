@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Cases</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="files/swiper-bundle.min.css">
+	<link rel="stylesheet" href="files/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="img/favicon.svg">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="fixed-header">
+			<div class="message">
+				<div class="message__container container">
+					<div class="message__content">
+						<div class="message__left-col">
+							<div class="message__text-holder">
+								<span class="icon-before">🎉</span>
+								<p>«aNavigator» brings to your attention an updated site!</p>
+								<span class="icon-after">🎉</span>
+							</div>
+						</div>
+						<div class="message__right-col">
+							<span>An error was detected?</span>
+							<a href="#">Let us know</a>
+						</div>
+					</div>
+					<div class="message__close close">
+						<button type="button" class="_icon-Minus"></button>
+					</div>
+				</div>
+			</div>
+			<header class="header">
+				<div class="header__container">
+					<a href="#" class="header__logo">
+						<img src="img/logo.svg" width="75" height="14" alt="logo">
+					</a>
+					<form class="bar">
+						<div class="bar__input-holder">
+							<input class="search-input" type="search" name="search" pattern=".*\S.*" required
+								autocomplete="off" placeholder="Enter your request">
+							<span class="clear-search">✕</span>
+						</div>
+						<button class="search-btn _icon-MagnifyingGlass-1" type="button">
+						</button>
+					</form>
+					<div class="header__menu menu">
+						<div class="menu__button">
+							<span>Menu</span>
+							<div class="menu__icon"></div>
+						</div>
+						<nav class="menu__body">
+							<div class="menu__buttons">
+								<form class="bar-mobile">
+									<div class="bar-mobile__input-holder">
+										<input class="search-input-mobile" id="search-input" type="search" name="search"
+											pattern=".*\S.*" required autocomplete="off" placeholder="Enter your request">
+										<span class="clear-search-mobile">✕</span>
+									</div>
+									<button class="search-btn-mobile _icon-MagnifyingGlass-1" type="button">
+									</button>
+								</form>
+								<div class="menu__close">
+									<span>Close menu</span>
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12.765 12.2354C12.8019 12.2697 12.8314 12.3111 12.8519 12.3571C12.8724 12.4031 12.8835 12.4528 12.8843 12.5032C12.8852 12.5535 12.876 12.6035 12.8571 12.6502C12.8382 12.6969 12.8102 12.7393 12.7746 12.7749C12.739 12.8105 12.6965 12.8386 12.6498 12.8575C12.6032 12.8763 12.5531 12.8856 12.5028 12.8847C12.4524 12.8838 12.4028 12.8728 12.3568 12.8523C12.3108 12.8318 12.2694 12.8023 12.235 12.7654L8.00005 8.53104L3.76505 12.7654C3.69396 12.8317 3.59993 12.8677 3.50278 12.866C3.40563 12.8643 3.31294 12.8249 3.24423 12.7562C3.17553 12.6875 3.13617 12.5948 3.13446 12.4977C3.13274 12.4005 3.16881 12.3065 3.23505 12.2354L7.46942 8.00041L3.23505 3.76541C3.16881 3.69432 3.13274 3.6003 3.13446 3.50315C3.13617 3.406 3.17553 3.31331 3.24423 3.2446C3.31294 3.17589 3.40563 3.13654 3.50278 3.13482C3.59993 3.13311 3.69396 3.16917 3.76505 3.23541L8.00005 7.46979L12.235 3.23541C12.3061 3.16917 12.4002 3.13311 12.4973 3.13482C12.5945 3.13654 12.6872 3.17589 12.7559 3.2446C12.8246 3.31331 12.8639 3.406 12.8656 3.50315C12.8673 3.6003 12.8313 3.69432 12.765 3.76541L8.53067 8.00041L12.765 12.2354Z"
+											fill="#F2F4F5" />
+									</svg>
+								</div>
+							</div>
+							<ul class="menu__list">
+								<li><a href="#" class="menu__link link">Home</a></li>
+								<li data-spollers="1279" class="spollers">
+									<details class="spollers__item">
+										<summary class="spollers__title link _icon-CaretDown">
+											Services
+										</summary>
+										<div class="spollers__body">
+											<a href="#">Amazon PPC Management Services</a>
+											<a href="#">Amazon DSP (Demand-Side Platform)</a>
+											<a href="#">Amazon Marketing Strategy</a>
+										</div>
+
+									</details>
+								</li>
+								<li><a href="testimonials.html" class="menu__link link">Reviews</a></li>
+								<li><a href="blog.html" class="menu__link link">Blog</a></li>
+								<li><a href="team.html" class="menu__link link">Our Team</a></li>
+								<li><a href="cases.html" class="menu__link link">Case Studies</a></li>
+								<li><a href="contact-us.html" class="menu__link link">Contacts</a></li>
+							</ul>
+							<div class="menu__footer-buttons">
+								<a href="#" class="button button--radius _icon-Broadcast">Podcasts</a>
+								<a data-fancybox data-src="#modal-contact-1" href="javascript:;"
+									class="button button--main">Contact
+									Us</a>
+							</div>
+							<div class="menu__mail-box mail-box">
+								<div class="mail-box__text-holder">
+									<p>Contact us today to explore the possibilities of expanding your reach, boosting your
+										sales, and
+										navigating the challenges of Amazon selling.</p>
+								</div>
+								<div class="mail-box__social-bar social-bar">
+									<a href="#" target="_blank" class="social-bar__item">
+										<div class="social-bar__image-holder">
+											<img src="img/facebook.svg" width="20" height="20" alt="facebook">
+										</div>
+									</a>
+									<a href="#" target="_blank" class="social-bar__item">
+										<div class="social-bar__image-holder">
+											<img src="img/spotify.svg" width="20" height="20" alt="spotify">
+										</div>
+									</a>
+									<a href="#" target="_blank" class="social-bar__item">
+										<div class="social-bar__image-holder">
+											<img src="img/youtube.svg" width="20" height="20" alt="youtube">
+										</div>
+									</a>
+									<a href="#" target="_blank" class="social-bar__item">
+										<div class="social-bar__image-holder">
+											<img src="img/linkedin.svg" width="20" height="20" alt="linkedin">
+										</div>
+									</a>
+									<a href="#" target="_blank" class="social-bar__item">
+										<div class="social-bar__image-holder">
+											<img src="img/instagram.svg" width="20" height="20" alt="instagram">
+										</div>
+									</a>
+								</div>
+								<div class="mail-box__footer">
+									<a class="mail-box__link link" href="mailto:info@anavigator.com">info@anavigator.com</a>
+									<a class="button button--secondary _icon-ChatText" href="#">live chat</a>
+								</div>
+							</div>
+						</nav>
+						<div class="overlay"></div>
+						<a class="button button--radius _icon-Broadcast" href="#">Podcasts</a>
+					</div>
+					<div class="header__buttons">
+						<form class="bar">
+							<div class="bar__input-holder">
+								<input class="search-input" type="search" name="search" pattern=".*\S.*" required
+									autocomplete="off" placeholder="Enter your request">
+								<span class="clear-search">✕</span>
+							</div>
+							<button class="search-btn _icon-MagnifyingGlass-1" type="button">
+							</button>
+						</form>
+						<a class="button button--main" data-fancybox data-src="#modal-contact-1" href="javascript:;">Contact
+							Us</a>
+					</div>
+				</div>
+				<div class="submenu">
+					<div class="submenu__container container">
+						<div class="submenu__close _icon-X">
+						</div>
+						<div class="submenu__header">
+							<h3 class="submenu__subtitle subtitle">Services</h3>
+							<h2 class="submenu__title title">What Can We Do?</h2>
+						</div>
+						<div class="submenu__content">
+							<div class="submenu__left-col">
+								<a href="#" class="submenu__card card-services card-services--orange">
+									<div class="card-services__inner">
+										<div class="card-services__icon-holder">
+											<img src="img/services-icon-01.svg" width="18" height="18" alt="icon">
+										</div>
+										<h4 class="card-services__title">Amazon PPC Management Services</h4>
+										<div class="card-services__text-holder">
+											<p>Skyrocket your visibility with our tailor-made Amazon PPC service. Turn potential
+												viewers
+												into actual buyers, ramping up conversions and ROI.</p>
+										</div>
+									</div>
+								</a>
+								<a href="#" class="submenu__card card-services card-services--gray">
+									<div class="card-services__inner">
+										<div class="card-services__icon-holder">
+											<img src="img/services-icon-02.svg" width="18" height="18" alt="icon">
+										</div>
+										<h4 class="card-services__title">Amazon DSP (Demand-Side Platform)</h4>
+										<div class="card-services__text-holder">
+											<p>Unlock the power of Amazon DSP with us! Harness Amazon's vast buyer data, target
+												ideal
+												customers, and boost your brand's reach. From laser-focused targeting to maximizing
+												ROI -
+												we bring your brand to the forefront. Connect, convert, and captivate with our DSP
+												expertise.</p>
+										</div>
+
+									</div>
+								</a>
+								<a href="#" class="submenu__card card-services card-services--silver">
+									<div class="card-services__inner">
+										<div class="card-services__icon-holder">
+											<img src="img/services-icon-03.svg" width="18" height="18" alt="icon">
+										</div>
+										<h4 class="card-services__title">Amazon Marketing Strategy</h4>
+										<div class="card-services__text-holder">
+											<p>Experience explosive growth on Amazon! We fine-tune your positioning, listings, and
+												pricing, unleashing robust profits and scaling opportunities.</p>
+										</div>
+
+									</div>
+								</a>
+							</div>
+							<div class="submenu__right-col">
+								<div class="submenu__list list-services">
+									<div class="list-services__header">
+										<h4 class="list-services__title">Analytics</h4>
+									</div>
+									<ul class="list-services__list">
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-ChartLineUp-1" href="#">Custom Reporting and
+												Scale
+												Insights</a>
+										</li>
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-CloudArrowUp" href="#">Amazon Marketing
+												Cloud</a>
+										</li>
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-Graph" href="#">Amazon Marketing Stream</a>
+										</li>
+									</ul>
+								</div>
+								<div class="submenu__list list-services">
+									<div class="list-services__header">
+										<h4 class="list-services__title">Branding and Listing Optimization</h4>
+									</div>
+									<ul class="list-services__list">
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-TextAlignCenter" href="#">Amazon SEO</a>
+										</li>
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-ImageSquare" href="#">Product Images and
+												Video</a>
+										</li>
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-ShoppingCart" href="#">Amazon Brand Store
+												Development</a>
+										</li>
+									</ul>
+								</div>
+								<div class="submenu__list list-services">
+									<div class="list-services__header">
+										<h4 class="list-services__title">Comprehensive Brand Support</h4>
+									</div>
+									<ul class="list-services__list">
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-Package" href="#">Amazon
+												Inventory Management</a>
+										</li>
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-Gauge" href="#">Amazon Troubleshooting
+												Services</a>
+										</li>
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-Percent" href="#">Amazon Reimbursement</a>
+										</li>
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-UserSwitch" href="#">Customer Service
+												Management</a>
+										</li>
+									</ul>
+								</div>
+								<div class="submenu__list list-services">
+									<div class="list-services__header">
+										<h4 class="list-services__title">Amazon External Traffic</h4>
+									</div>
+									<ul class="list-services__list">
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-GoogleLogo" href="#">Google Ads</a>
+										</li>
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-TiktokLogo" href="#">TikTok Advertising</a>
+										</li>
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-Handshake" href="#">Influencer Marketing
+												Services</a>
+										</li>
+										<li class="list-services__item">
+											<a class="list-services__link link _icon-ToteSimple" href="#">Shopify Website Design
+												and
+												Development</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="overlay"></div>
+			</header>
+		</div>
+		<main class="page">
+			<div class="cases-page">
+				<section class="breadcrumbs" id="breadcrumbs-section">
+					<div class="breadcrumbs__container">
+						<div class="breadcrumbs__list">
+							<span>
+								<span>
+									<a class="link _icon-HouseLine" href="/"></a>
+								</span>
+								<span class="brDevider">|</span>
+								<span aria-current="page"><a class="link" href="#">cases</a></span>
+								<span class="brDevider">|</span>
+								<span aria-current="page">Artpix3D – Mastering Seasonality and Scaling Growth</span>
+							</span>
+						</div>
+					</div>
+				</section>
+				<section class="two-column" id="two-column-section">
+					<div class="two-column__container container">
+						<div class="two-column__hero hero-two-column">
+							<div class="hero-two-column__left-col">
+								<div class="hero-two-column__logo-holder">
+									<img src="img/cases-logo-01.svg" width="200" height="95" alt="logo">
+								</div>
+							</div>
+							<div class="hero-two-column__right-col">
+								<div class="hero-two-column__text-block">
+									<div class="hero-two-column__description">
+										<p>
+											19 Jan 2022
+										</p>
+									</div>
+									<h1 class="hero-two-column__title">Artpix3D – Mastering Seasonality and Scaling Growth
+									</h1>
+								</div>
+								<div class="card-box">
+									<h3>Our results</h3>
+									<div class="card-box__content">
+										<div class="card">
+											<div class="card__inner">
+												<div class="card__left-col">
+													<div class="card__name">Increase in sales</div>
+													<div class="card__value">+137%</div>
+												</div>
+												<div class="card__right-col">
+													<div class="card__icon-holder">
+														<img src="img/widget-icon-01.svg" width="12" height="12" alt="icon">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card__inner">
+												<div class="card__left-col">
+													<div class="card__name">ACoS reduction</div>
+													<div class="card__value">-79%</div>
+												</div>
+												<div class="card__right-col">
+													<div class="card__icon-holder">
+														<img src="img/widget-icon-02.svg" width="12" height="12" alt="icon">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card__inner">
+												<div class="card__left-col">
+													<div class="card__name">Increase in sales</div>
+													<div class="card__value">+137%</div>
+												</div>
+												<div class="card__right-col">
+													<div class="card__icon-holder">
+														<img src="img/widget-icon-01.svg" width="12" height="12" alt="icon">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="hero-two-column__profile-holder">
+									<h3>Team members:</h3>
+									<div class="hero-two-column__profile-content">
+										<a href="#" class="slide-team">
+											<div class="slide-team__inner">
+												<div class="slide-team__image-holder">
+													<picture>
+														<source srcset="img/team-img-04.webp" type="image/webp"><img
+															src="img/team-img-04.jpg" width="100" height="100" alt="Oksana Lohatska">
+													</picture>
+												</div>
+												<div class="slide-team__text-block">
+													<div class="slide-team__name">Oksana Lohatska</div>
+													<div class="slide-team__position">PPC Specialist</div>
+													<span class="slide-team__link">Open profile</span>
+												</div>
+											</div>
+										</a>
+										<a href="#" class="slide-team">
+											<div class="slide-team__inner">
+												<div class="slide-team__image-holder">
+													<picture>
+														<source srcset="img/team-img-03.webp" type="image/webp"><img
+															src="img/team-img-03.jpg" width="100" height="100" alt="Ksenia Smyk">
+													</picture>
+												</div>
+												<div class="slide-team__text-block">
+													<div class="slide-team__name">Ksenia Smyk</div>
+													<div class="slide-team__position">Executive Assistant</div>
+													<span class="slide-team__link">Open profile</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="sidebar-content">
+					<div class="sidebar-content__container container">
+						<div class="sidebar-content__left-col">
+							<aside class="sidebar">
+								<div class="sidebar__header">
+									<div class="sidebar__links">
+										<a class="sidebar__link _icon-AnchorSimple link" href="#title-1">Background</a>
+										<a class="sidebar__link _icon-AnchorSimple link" href="#title-2">Strategy and
+											Execution</a>
+										<a class="sidebar__link _icon-AnchorSimple link" href="#title-3">Results</a>
+									</div>
+									<div class="sidebar__social-box">
+										<div id="copyLinkButton" data-href="https://www.google.com.ua/?hl=ru">
+											<button class="_icon-Link">Copy Link</button>
+										</div>
+										<div class="sidebar__social-list">
+											<a href="https://www.facebook.com/sharer/sharer.php?u=https://denis.creation.pp.ua/navigator/"
+												target="_blank" class="sidebar__social-item _icon-facebook"></a>
+											<a href="https://twitter.com/intent/tweet?text=Navigator%20Article&url=https://denis.creation.pp.ua/navigator/"
+												target="_blank" class="sidebar__social-item _icon-twitter"></a>
+											<a href="https://api.whatsapp.com/send?text=Navigator%20Article%20https://denis.creation.pp.ua/navigator/"
+												target="_blank" class="sidebar__social-item _icon-WhatsappLogo"></a>
+										</div>
+									</div>
+								</div>
+								<div class="sidebar__cta cta-sidebar">
+									<div class="cta-sidebar__content">
+										<h2 class="cta-sidebar__title title">Ready to maximise your Amazon sales?</h2>
+										<div class="cta-sidebar__text-holder">
+											<p>Share contact info, our Amazon PPC expert will help you succeed.</p>
+										</div>
+										<a class="cta-sidebar__button button button--main" href="#">order a consultation</a>
+									</div>
+									<div class="cta-sidebar__image-holder">
+										<picture>
+											<source srcset="img/sidebar-cta-img-01.webp" type="image/webp"><img
+												src="img/sidebar-cta-img-01.png" width="376" height="408" alt="image">
+										</picture>
+									</div>
+									<div class="cta-sidebar__bg bg-holder">
+										<picture>
+											<source media="(min-width: 1280px)" srcset="img/sidebar-cta-bg-desc.webp"
+												type="image/webp">
+											<img src="img/sidebar-cta-bg.png" width="376" height="668" alt="image">
+										</picture>
+									</div>
+									<div class="noise"></div>
+								</div>
+							</aside>
+						</div>
+						<div class="sidebar-content__right-col">
+							<h2 id="title-1" class="sidebar-content__title">Background
+							</h2>
+							<div class="sidebar-content__text-holder">
+								<p>Artpix3D, a popular brand known for its high-quality gift items, approached us with a unique
+									challenge. Their business was highly seasonal, with peak sales during Mother’s Day and
+									Christmas. They sought to grow their business and reduce their dependence on these two key
+									events.</p>
+							</div>
+
+							<div class="sidebar-content__image-holder">
+								<picture>
+									<source media="(min-width: 1280px)" srcset="img/cases-content-img-01-desc.jpg"
+										type="image/webp">
+									<img src="img/cases-content-img-01.jpg" width="376" height="376" alt="image">
+
+								</picture>
+							</div>
+							<h2 id="title-2" class="sidebar-content__title">Strategy and Execution
+							</h2>
+							<div class="sidebar-content__text-holder">
+								<p>Our approach with Artpix3D was as distinctive as their products. Recognizing their position
+									as a leading Mother’s Day gift provider, we aimed to leverage this strength while mitigating
+									seasonality risks.</p>
+								<p>Data science was at the heart of our strategy. By analyzing sales patterns, buyer behavior,
+									and market trends, we were able to forecast demand and optimize inventory levels. This
+									ensured that Artpix3D, a popular brand known for its high-quality gift items, approached us
+									with a unique challenge. Their business was highly seasonal, with peak sales during Mother’s
+									Day and Christmas. They sought to grow their business and reduce their dependence on these
+									two key events. was well-prepared for their peak seasons and could maximize sales during
+									these periods.</p>
+								<p>We also implemented a robust multi-channel advertising strategy, including leveraging Google
+									Ads to drive traffic to their Amazon listings and remarketing strategies to boost buyer
+									retention and repeat purchases.</p>
+								<p>Additionally, we worked with Artpix3D to broaden their product portfolio. By identifying new
+									product opportunities, we helped them diversify their offerings and reduce their reliance on
+									Mother’s Day and Christmas sales.</p>
+							</div>
+							<h2 id="title-3" class="sidebar-content__title">Results
+							</h2>
+							<div class="sidebar-content__text-holder">
+								<p>The strategy paid off. Despite the challenging nature of their seasonal business, Artpix3D
+									successfully scaled to become an eight-figure business. In the previous year, their product
+									secured the highest market share for Mother’s Day gifts, an extraordinary accomplishment
+									considering their premium pricing in a market dominated by lower-priced alternatives.</p>
+								<p>Artpix3D’s case study is a testament to the power of strategic planning, data-driven
+									decision-making, and the right marketing mix. It highlights how businesses can navigate and
+									even capitalize on seasonality to achieve impressive growth.</p>
+							</div>
+							<div class="sidebar-content__cards">
+								<a href="#" class="sidebar-content__card card">
+									<div class="card__inner">
+										<div class="card__badge badge _icon-ChartLineUp">services</div>
+										<h3 class="card__title">Amazon PPC Management Services</h3>
+										<span class="card__link _icon-CaretRight">Learn more</span>
+									</div>
+								</a>
+								<a href="#" class="sidebar-content__card card">
+									<div class="card__inner">
+										<div class="card__badge badge _icon-ChartLineUp">services</div>
+										<h3 class="card__title">Amazon Marketing Strategy</h3>
+										<span class="card__link _icon-CaretRight">Learn more</span>
+									</div>
+								</a>
+							</div>
+							<div class="slide-cases__text-block text-block">
+								<div class="text-block__text-holder">
+									<p>What the client says</p>
+								</div>
+								<h4>“I am absolutely thrilled with the results”</h4>
+							</div>
+							<div class="slide-cases__quote quote">
+								<div class="quote__inner">
+									<div class="quote__header">
+										<div class="quote__author">
+											<div class="quote__name">Annie Clearwater</div>
+											<div class="quote__position">CEO Artpix3D</div>
+										</div>
+										<a class="quote__link button button--watch" href="#">
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M16.0353 15.4142C14.8307 16.6666 13.1943 17.3452 11.4725 17.3452C7.94325 17.3452 5.3771 14.5443 5.3771 10.6999C5.3771 6.83791 7.94325 4.03702 11.4725 4.03702C13.1777 4.03702 14.7958 4.71484 16.0187 5.95043L16.5002 6.43778L18.6181 4.2979L18.1532 3.81055C16.3973 1.98357 14.0212 0.992859 11.4725 0.992859C6.27288 0.992859 2.36426 5.16778 2.36426 10.7167C2.36426 16.2489 6.2903 20.407 11.4725 20.407C14.0386 20.407 16.4147 19.3987 18.1706 17.5717L18.6355 17.0844L16.5351 14.9101L16.0353 15.4142Z"
+													fill="#323E48"></path>
+												<path
+													d="M11.716 6.64044C12.7816 6.64044 13.8035 7.06814 14.557 7.82945C15.3105 8.59076 15.7338 9.62332 15.7338 10.7C15.7338 11.7766 15.3105 12.8092 14.557 13.5705C13.8035 14.3318 12.7816 14.7595 11.716 14.7595C10.6504 14.7595 9.62849 14.3318 8.87502 13.5705C8.12154 12.8092 7.69824 11.7766 7.69824 10.7C7.69824 9.62332 8.12154 8.59076 8.87502 7.82945C9.62849 7.06814 10.6504 6.64044 11.716 6.64044Z"
+													fill="#FF3D2E"></path>
+											</svg>
+											watch here
+										</a>
+									</div>
+									<div class="quote__text-holder">
+										<p>“I am absolutely thrilled with the results achieved thanks to the company!
+											Our
+											sales on Amazon have increased manifold, and it was done professionally and
+											efficiently. I feel like our business has found a reliable partner, and I
+											couldn't be happier!”</p>
+									</div>
+									<div class="quote__image-holder">
+										<picture>
+											<source srcset="img/author-03.webp" type="image/webp"><img src="img/author-03.jpg"
+												width="32" height="32" alt="Annie Clearwater">
+										</picture>
+									</div>
+								</div>
+							</div>
+							<div class="sidebar__text-block text-block-sidebar">
+								<div class="text-block-sidebar__text-holder">
+									<p>At Artpix3D, they faced a common dilemma – seasonal sales peaks during Mother's Day and
+										Christmas. But they aimed for more. </p>
+									<p>By embracing data-driven strategies and diversifying their product range, Artpix3D
+										transformed into an eight-figure business, consistently excelling throughout the year.
+									</p>
+									<p>This case study showcases the power of strategic planning and marketing prowess, proving
+										that businesses can thrive beyond seasonality. Ready to script your own success story?
+										Partner with us for year-round growth.</p>
+								</div>
+								<h2 class="text-block-sidebar__title">Unlocking Year-Round Success: The Artpix3D Transformation
+								</h2>
+							</div>
+							<div class="sidebar-content__image-holder">
+								<picture>
+									<source media="(min-width: 1280px)" srcset="img/cases-content-img-02-desc.jpg"
+										type="image/webp">
+									<img src="img/cases-content-img-02.jpg" width="376" height="376" alt="image">
+
+								</picture>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<section class="cases" id="cases-section">
+					<div class="cases__container container">
+						<div class="cases__header">
+							<h3 class="cases__subtitle subtitle">cases</h3>
+							<h2 class="cases__title title">Successes of our clients</h2>
+						</div>
+						<div class="cases__body">
+							<div class="cases__slider swiper slider-cases">
+								<div class="cases__wrapper swiper-wrapper">
+									<div class="cases__slide swiper-slide slide-cases">
+										<div class="slide-cases__inner">
+											<div class="slide-cases__left-col">
+												<div class="slide-cases__text-block text-block">
+													<div class="text-block__text-holder">
+														<p>What the client says</p>
+													</div>
+													<h4>“I am absolutely thrilled with the results”</h4>
+												</div>
+												<div class="slide-cases__quote quote">
+													<div class="quote__inner">
+														<div class="quote__header">
+															<div class="quote__author">
+																<div class="quote__name">Annie Clearwater</div>
+																<div class="quote__position">CEO Artpix3D</div>
+															</div>
+															<a class="quote__link button button--watch" href="#">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M16.0353 15.4142C14.8307 16.6666 13.1943 17.3452 11.4725 17.3452C7.94325 17.3452 5.3771 14.5443 5.3771 10.6999C5.3771 6.83791 7.94325 4.03702 11.4725 4.03702C13.1777 4.03702 14.7958 4.71484 16.0187 5.95043L16.5002 6.43778L18.6181 4.2979L18.1532 3.81055C16.3973 1.98357 14.0212 0.992859 11.4725 0.992859C6.27288 0.992859 2.36426 5.16778 2.36426 10.7167C2.36426 16.2489 6.2903 20.407 11.4725 20.407C14.0386 20.407 16.4147 19.3987 18.1706 17.5717L18.6355 17.0844L16.5351 14.9101L16.0353 15.4142Z"
+																		fill="#323E48" />
+																	<path
+																		d="M11.716 6.64044C12.7816 6.64044 13.8035 7.06814 14.557 7.82945C15.3105 8.59076 15.7338 9.62332 15.7338 10.7C15.7338 11.7766 15.3105 12.8092 14.557 13.5705C13.8035 14.3318 12.7816 14.7595 11.716 14.7595C10.6504 14.7595 9.62849 14.3318 8.87502 13.5705C8.12154 12.8092 7.69824 11.7766 7.69824 10.7C7.69824 9.62332 8.12154 8.59076 8.87502 7.82945C9.62849 7.06814 10.6504 6.64044 11.716 6.64044Z"
+																		fill="#FF3D2E" />
+																</svg>
+																watch here
+															</a>
+														</div>
+														<div class="quote__text-holder">
+															<p>“I am absolutely thrilled with the results achieved thanks to the
+																company!
+																Our
+																sales on Amazon have increased manifold, and it was done professionally
+																and
+																efficiently. I feel like our business has found a reliable partner, and
+																I
+																couldn't be happier!”</p>
+														</div>
+														<div class="quote__image-holder">
+															<picture>
+																<source srcset="img/author-03.webp" type="image/webp"><img
+																	src="img/author-03.jpg" width="32" height="32"
+																	alt="Annie Clearwater">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="slide-cases__right-col">
+												<div class="slide-cases__card card-slide-cases">
+													<div class="card-slide-cases__inner">
+														<h4 class="card-slide-cases__title">Customer review</h4>
+														<div class="card-slide-cases__header">
+															<div class="card-slide-cases__logo-holder">
+																<img src="img/cases-logo-01.svg" width="50" height="24" alt="logo">
+															</div>
+															<div class="card-slide-cases__text-holder">
+																<p>Artpix3D, a popular brand known for its high-quality gift items,
+																	approached
+																	us
+																	with a unique challenge. Their business was highly seasonal, with
+																	peak
+																	sales
+																	during Mother’s Day and Christmas. They sought to grow their business
+																	and
+																	reduce their dependence on these two key events.</p>
+																<a class="button button--main _icon-CaretRight" href="#">Read the
+																	case</a>
+															</div>
+														</div>
+														<div class="card-slide-cases__footer">
+															<div class="card-slide-cases__left-col">
+																<h4 class="card-slide-cases__title">Our results</h4>
+																<div class="card-box">
+																	<div class="card">
+																		<div class="card__inner">
+																			<div class="card__left-col">
+																				<div class="card__name">Increase in sales</div>
+																				<div class="card__value">+137%</div>
+																			</div>
+																			<div class="card__right-col">
+																				<div class="card__icon-holder">
+																					<img src="img/widget-icon-01.svg" width="12" height="12"
+																						alt="icon">
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="card">
+																		<div class="card__inner">
+																			<div class="card__left-col">
+																				<div class="card__name">ACoS reduction</div>
+																				<div class="card__value">-79%</div>
+																			</div>
+																			<div class="card__right-col">
+																				<div class="card__icon-holder">
+																					<img src="img/widget-icon-02.svg" width="12" height="12"
+																						alt="icon">
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="card-slide-cases__right-col">
+																<div class="card-slide-cases__image-holder">
+																	<picture>
+																		<source srcset="img/cases-img-02.webp" type="image/webp"><img
+																			src="img/cases-img-02.png" width="224" height="153"
+																			alt="image">
+																	</picture>
+																</div>
+																<div class="card-slide-cases__mokup">
+																	<picture>
+																		<source srcset="img/mockup-01.webp" type="image/webp"><img
+																			src="img/mockup-01.png" width="179" height="116" alt="image">
+																	</picture>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="cases__slide swiper-slide slide-cases">
+										<div class="slide-cases__inner">
+											<div class="slide-cases__left-col">
+												<div class="slide-cases__text-block text-block">
+													<div class="text-block__text-holder">
+														<p>What the client says</p>
+													</div>
+													<h4>“My cooperation with the company "aNavigator" exceeded all my expectations”
+													</h4>
+												</div>
+												<div class="slide-cases__quote quote">
+													<div class="quote__inner">
+														<div class="quote__header">
+															<div class="quote__author">
+																<div class="quote__name">John Miller</div>
+																<div class="quote__position">John Miller</div>
+															</div>
+															<a class="quote__link button button--watch" href="#">
+																<svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M16.0353 15.4142C14.8307 16.6666 13.1943 17.3452 11.4725 17.3452C7.94325 17.3452 5.3771 14.5443 5.3771 10.6999C5.3771 6.83791 7.94325 4.03702 11.4725 4.03702C13.1777 4.03702 14.7958 4.71484 16.0187 5.95043L16.5002 6.43778L18.6181 4.2979L18.1532 3.81055C16.3973 1.98357 14.0212 0.992859 11.4725 0.992859C6.27288 0.992859 2.36426 5.16778 2.36426 10.7167C2.36426 16.2489 6.2903 20.407 11.4725 20.407C14.0386 20.407 16.4147 19.3987 18.1706 17.5717L18.6355 17.0844L16.5351 14.9101L16.0353 15.4142Z"
+																		fill="#323E48" />
+																	<path
+																		d="M11.716 6.64044C12.7816 6.64044 13.8035 7.06814 14.557 7.82945C15.3105 8.59076 15.7338 9.62332 15.7338 10.7C15.7338 11.7766 15.3105 12.8092 14.557 13.5705C13.8035 14.3318 12.7816 14.7595 11.716 14.7595C10.6504 14.7595 9.62849 14.3318 8.87502 13.5705C8.12154 12.8092 7.69824 11.7766 7.69824 10.7C7.69824 9.62332 8.12154 8.59076 8.87502 7.82945C9.62849 7.06814 10.6504 6.64044 11.716 6.64044Z"
+																		fill="#FF3D2E" />
+																</svg>
+																watch here
+															</a>
+														</div>
+														<div class="quote__text-holder">
+															<p>“My cooperation with the company "aNavigator" exceeded all my
+																expectations.
+																When I decided to expand my business and start selling on Amazon, I was
+																full of doubts and worries. However, thanks to the professionalism and
+																expertise of the "aNavigator" team, the process turned out to be much
+																easier than I thought.”</p>
+														</div>
+														<div class="quote__image-holder">
+															<picture>
+																<source srcset="img/author-04.webp" type="image/webp"><img
+																	src="img/author-04.jpg" width="32" height="32" alt="John Miller">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="slide-cases__right-col">
+												<div class="slide-cases__card card-slide-cases">
+													<div class="card-slide-cases__inner">
+														<h4 class="card-slide-cases__title">Customer review</h4>
+														<div class="card-slide-cases__header">
+															<div class="card-slide-cases__logo-holder">
+																<img src="img/cases-logo-02.svg" width="50" height="24" alt="logo">
+															</div>
+															<div class="card-slide-cases__text-holder">
+																<p>Before starting the cooperation, they conducted an in-depth analysis
+																	of
+																	the market and competitive environment to determine the best
+																	promotion
+																	strategies for my products. They offered a range of activities
+																	including
+																	listing optimization, advertising campaigns and feedback management
+																	that
+																	made my products more visible and recognizable on Amazon.</p>
+																<p>What impressed me the most was their transparency and constant
+																	communication. They provided regular progress reports, discussed
+																	current
+																	results and adapted strategy to achieve the best results. It gave me
+																	confidence that my company is in good hands.</p>
+																<a class="button button--main _icon-CaretRight" href="#">Read the
+																	case</a>
+															</div>
+														</div>
+														<div class="card-slide-cases__footer">
+															<div class="card-slide-cases__left-col">
+																<h4 class="card-slide-cases__title">Our results</h4>
+																<div class="card-box">
+																	<div class="card">
+																		<div class="card__inner">
+																			<div class="card__left-col">
+																				<div class="card__name">Increase in sales</div>
+																				<div class="card__value">+241%</div>
+																			</div>
+																			<div class="card__right-col">
+																				<div class="card__icon-holder">
+																					<img src="img/widget-icon-01.svg" width="12" height="12"
+																						alt="icon">
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="card">
+																		<div class="card__inner">
+																			<div class="card__left-col">
+																				<div class="card__name">ACoS reduction</div>
+																				<div class="card__value">-114%</div>
+																			</div>
+																			<div class="card__right-col">
+																				<div class="card__icon-holder">
+																					<img src="img/widget-icon-02.svg" width="12" height="12"
+																						alt="icon">
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="cases__slide swiper-slide slide-cases">
+										<div class="slide-cases__inner">
+											<div class="slide-cases__left-col">
+												<div class="slide-cases__text-block text-block">
+													<div class="text-block__text-holder">
+														<p>What the client says</p>
+													</div>
+													<h4>"Their team of experts conducted a full audit of my products and market"</h4>
+												</div>
+												<div class="slide-cases__quote quote">
+													<div class="quote__inner">
+														<div class="quote__header">
+															<div class="quote__author">
+																<div class="quote__name">Maxim Petrov</div>
+																<div class="quote__position">Director of Marketing and Sales of the
+																	company
+																	"Resecurb Inc."</div>
+															</div>
+															<a class="quote__link button button--watch" href="#">
+																<svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M16.0353 15.4142C14.8307 16.6666 13.1943 17.3452 11.4725 17.3452C7.94325 17.3452 5.3771 14.5443 5.3771 10.6999C5.3771 6.83791 7.94325 4.03702 11.4725 4.03702C13.1777 4.03702 14.7958 4.71484 16.0187 5.95043L16.5002 6.43778L18.6181 4.2979L18.1532 3.81055C16.3973 1.98357 14.0212 0.992859 11.4725 0.992859C6.27288 0.992859 2.36426 5.16778 2.36426 10.7167C2.36426 16.2489 6.2903 20.407 11.4725 20.407C14.0386 20.407 16.4147 19.3987 18.1706 17.5717L18.6355 17.0844L16.5351 14.9101L16.0353 15.4142Z"
+																		fill="#323E48" />
+																	<path
+																		d="M11.716 6.64044C12.7816 6.64044 13.8035 7.06814 14.557 7.82945C15.3105 8.59076 15.7338 9.62332 15.7338 10.7C15.7338 11.7766 15.3105 12.8092 14.557 13.5705C13.8035 14.3318 12.7816 14.7595 11.716 14.7595C10.6504 14.7595 9.62849 14.3318 8.87502 13.5705C8.12154 12.8092 7.69824 11.7766 7.69824 10.7C7.69824 9.62332 8.12154 8.59076 8.87502 7.82945C9.62849 7.06814 10.6504 6.64044 11.716 6.64044Z"
+																		fill="#FF3D2E" />
+																</svg>
+																watch here
+															</a>
+														</div>
+														<div class="quote__text-holder">
+															<p>“I would like to express my gratitude to aNavigator for their amazing
+																work.
+																When I decided to start selling on Amazon, I knew that the competition
+																on
+																this platform was huge and I needed the help of professionals.
+																"aNavigator"
+																met all my expectations."</p>
+														</div>
+														<div class="quote__image-holder">
+															<picture>
+																<source srcset="img/author-05.webp" type="image/webp"><img
+																	src="img/author-05.jpg" width="32" height="32"
+																	alt="Annie Clearwater">
+															</picture>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="slide-cases__right-col">
+												<div class="slide-cases__card card-slide-cases">
+													<div class="card-slide-cases__inner">
+														<h4 class="card-slide-cases__title">Customer review</h4>
+														<div class="card-slide-cases__header">
+															<div class="card-slide-cases__text-holder">
+																<p>Their team of experts conducted a full audit of my products and
+																	market
+																	to develop a promotion strategy and the results were fantastic. They
+																	optimized my listings, set up effective advertising campaigns, and
+																	helped me get positive feedback from clients.</p>
+																<p>What impressed me the most was their insight and ability to adapt.
+																	They
+																	constantly analyzed the data and adjusted our strategies to achieve
+																	better results. Thanks to their efforts, my Amazon sales skyrocketed
+																	and
+																	I began to attract new customers.</p>
+																<a class="button button--main _icon-CaretRight" href="#">Read the
+																	case</a>
+															</div>
+														</div>
+														<div class="card-slide-cases__footer">
+															<div class="card-slide-cases__left-col">
+																<h4 class="card-slide-cases__title">Our results</h4>
+																<div class="card-box">
+																	<div class="card">
+																		<div class="card__inner">
+																			<div class="card__left-col">
+																				<div class="card__name">Increase in sales</div>
+																				<div class="card__value">+241%</div>
+																			</div>
+																			<div class="card__right-col">
+																				<div class="card__icon-holder">
+																					<img src="img/widget-icon-01.svg" width="12" height="12"
+																						alt="icon">
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="card">
+																		<div class="card__inner">
+																			<div class="card__left-col">
+																				<div class="card__name">ACoS reduction</div>
+																				<div class="card__value">-114%</div>
+																			</div>
+																			<div class="card__right-col">
+																				<div class="card__icon-holder">
+																					<img src="img/widget-icon-02.svg" width="12" height="12"
+																						alt="icon">
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="card-slide-cases__right-col">
+																<div class="card-slide-cases__image-holder">
+																	<picture>
+																		<source srcset="img/cases-img-02.webp" type="image/webp"><img
+																			src="img/cases-img-02.png" width="224" height="153"
+																			alt="image">
+																	</picture>
+																</div>
+																<div class="card-slide-cases__mokup">
+																	<picture>
+																		<source srcset="img/mockup-02.webp" type="image/webp"><img
+																			src="img/mockup-02.png" width="179" height="116" alt="image">
+																	</picture>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-cases__nav">
+								<button type="button" class="swiper-button-prev cases-button-prev _icon-ArrowLeft"></button>
+								<div class="swiper-pagination cases-swiper-pagination"></div>
+								<button type="button" class="swiper-button-next cases-button-next _icon-ArrowRight"></button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="news-podcast" id="news-podcast-section">
+					<div class="news-podcast__container container">
+						<div class="news-podcast__header header-news-podcast">
+							<div class="header-news-podcast__left-col">
+								<h3 class="header-news-podcast__subtitle subtitle">our activity</h3>
+								<h2 class="header-news-podcast__title title">News and podcasts</h2>
+							</div>
+							<div class="header-news-podcast__right-col">
+								<a class="header-news-podcast__link link _icon-CaretRight" href="#">GO TO FEED</a>
+							</div>
+						</div>
+						<div class="news-podcast__content">
+							<div class="news-podcast__left-col">
+								<h4 class="news-podcast__subtitle _icon-BookmarkSimple">SELECTED ARTICLE</h4>
+								<a href="#" class="news-podcast__card card-news">
+									<div class="card-news__inner">
+										<div class="card-news__image-holder">
+											<picture>
+												<source srcset="img/news-podcast-img-01.webp" type="image/webp"><img
+													src="img/news-podcast-img-01.jpg" width="344" height="176" alt="image">
+											</picture>
+										</div>
+										<div class="card-news__content">
+											<div class="card-news__header header-card-news">
+												<div class="header-card-news__left-col">
+													<div class="card-news__category _icon-Eye">blog</div>
+												</div>
+												<div class="header-card-news__right-col">
+													<div class="header-card-news__date">October 8, 2023</div>
+												</div>
+											</div>
+											<div class="card-news__title">Navigating the Complexities of Amazon Listings and
+												Seller Support: A Strategic Insight</div>
+											<div class="card-news__text-holder">
+												<p>In the multifaceted world of Amazon selling, businesses encounter a myriad of
+													challenges, particularly when it comes to managing product listings and
+													navigating
+													through the intricacies of Seller Support. This article explores the prevalent
+													issues and strategic approaches that sellers can adopt to effectively manage
+													their
+													Amazon listings and interact with Seller Support, ensuring the smooth and
+													efficient
+													operation of their online business.
+												</p>
+											</div>
+											<span class="card-news__link link _icon-CaretRight">Learn more</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="news-podcast__right-col">
+								<h4 class="news-podcast__subtitle">LATEST UPDATES</h4>
+								<div class="news-podcast__slider swiper slider-news-podcast">
+									<div class="news-podcast__wrapper swiper-wrapper">
+										<a href="#" class="news-podcast__slide swiper-slide slide-news-podcast">
+											<div class="slide-news-podcast__inner">
+												<div class="slide-news-podcast__image-holder">
+													<picture>
+														<source srcset="img/news-podcast-img-small-01.webp" type="image/webp"><img
+															src="img/news-podcast-img-small-01.jpg" width="224" height="176"
+															alt="image">
+													</picture>
+												</div>
+												<div class="slide-news-podcast__content">
+													<div class="slide-news-podcast__header header-slide-news-podcast">
+														<div class="header-slide-news-podcast__left-col">
+															<div class="header-slide-news-podcast__category _icon-Eye">blog</div>
+														</div>
+														<div class="header-slide-news-podcast__right-col">
+															<div class="header-slide-news-podcast__date">October 8, 2023</div>
+														</div>
+
+													</div>
+													<div class="slide-news-podcast__title">Harnessing the Power of TikTok: A
+														Comprehensive Outline to Amplifying Amazon Sales</div>
+													<div class="slide-news-podcast__text-holder">
+														<p>In the multifaceted world of Amazon selling, businesses encounter a myriad
+															of
+															challenges, particularly when it comes to managing product listings and
+															navigating through the intricacies of Seller Support. This article explores
+															the
+															prevalent issues and strategic approaches that sellers can adopt to
+															effectively
+															manage their Amazon listings and interact with Seller Support, ensuring the
+															smooth and efficient operation of their online business.
+														</p>
+													</div>
+													<span class="slide-news-podcast__link link _icon-CaretRight">Learn more</span>
+												</div>
+											</div>
+										</a>
+										<a href="#" class="news-podcast__slide swiper-slide slide-news-podcast">
+											<div class="slide-news-podcast__inner">
+												<div class="slide-news-podcast__image-holder">
+													<picture>
+														<source srcset="img/news-podcast-img-small-02.webp" type="image/webp"><img
+															src="img/news-podcast-img-small-02.jpg" width="224" height="176"
+															alt="image">
+													</picture>
+												</div>
+												<div class="slide-news-podcast__content">
+													<div class="slide-news-podcast__header header-slide-news-podcast">
+														<div class="header-slide-news-podcast__left-col">
+															<div class="header-slide-news-podcast__category _icon-Eye">blog</div>
+														</div>
+														<div class="header-slide-news-podcast__right-col">
+															<div class="header-slide-news-podcast__date">October 8, 2023</div>
+														</div>
+
+													</div>
+													<div class="slide-news-podcast__title">Harnessing the Power of AI in Amazon
+													</div>
+													<div class="slide-news-podcast__text-holder">
+														<p>In the multifaceted world of Amazon selling, businesses encounter a myriad
+															of
+															challenges, particularly when it comes to managing product listings and
+															navigating through the intricacies of Seller Support. This article explores
+															the
+															prevalent issues and strategic approaches that sellers can adopt to
+															effectively
+															manage their Amazon listings and interact with Seller Support, ensuring the
+															smooth and efficient operation of their online business.
+														</p>
+													</div>
+													<span class="slide-news-podcast__link link _icon-CaretRight">Learn more</span>
+												</div>
+											</div>
+										</a>
+										<div
+											class="news-podcast__slide swiper-slide slide-news-podcast slide-news-podcast--audio">
+											<div class="slide-news-podcast__inner">
+												<div class="slide-news-podcast__header header-slide-news-podcast">
+													<div class="header-slide-news-podcast__left-col">
+														<div class="header-slide-news-podcast__category _icon-SpeakerSimpleHigh">
+															podcast
+														</div>
+													</div>
+													<div class="header-slide-news-podcast__right-col">
+														<div class="header-slide-news-podcast__date">October 8, 2023</div>
+													</div>
+
+												</div>
+												<div class="slide-news-podcast__content">
+													<div class="slide-news-podcast__title-holder">
+														<a href="#" class="slide-news-podcast__title">Amazon External Traffic with
+															Kfir
+															Abud</a>
+													</div>
+													<div class="audio-wrapper">
+														<div class="audio-holder audio audioPlayer">
+															<audio class="audioElement" src="files/audio.mp3"></audio>
+															<button class="playPauseButton _icon-Play"></button>
+															<div class="audio__time durationDisplay">loading...</div>
+														</div>
+													</div>
+												</div>
+												<a href="#" class="slide-news-podcast__link link _icon-CaretRight">Learn more</a>
+											</div>
+										</div>
+									</div>
+									<div class="slider-news-podcast__nav">
+										<button type="button"
+											class="swiper-button-prev news-podcast-button-prev _icon-ArrowLeft"></button>
+										<div class="swiper-pagination news-podcast-swiper-pagination"></div>
+										<button type="button"
+											class="swiper-button-next news-podcast-button-next _icon-ArrowRight"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__content">
+					<div class="footer__left-col">
+						<div class="footer__logo-holder">
+							<img src="img/logo.svg" width="100" height="19" alt="logo">
+						</div>
+						<div class="footer__form form-footer">
+							<h4 class="form-footer__title">Subscribe to us!</h4>
+							<div id="note-2"></div>
+							<form class="form" id="ajax-contact-form-2" data-form-validate="true">
+								<div class="form__inner">
+									<div class="form__input-holder form__input-holder--email">
+										<span>
+											<input type="email" value="" name="email-client" placeholder="Enter your email"
+												required>
+										</span>
+									</div>
+									<input type="hidden" name="url">
+									<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+									<div class="form__button-holder">
+										<button class="button button--main _icon-CaretRight" type="submit">
+											Subscribe
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="footer__box">
+							<div class="footer__text-holder">
+								<p>Contact us today to explore the possibilities of expanding your reach, boosting your sales,
+									and
+									navigating the challenges of Amazon selling.</p>
+							</div>
+							<div class="footer__mail-box">
+								<a class="footer__mail link _icon-Envelope"
+									href="mailto:info@anavigator.co">info@anavigator.co</a>
+								<a class="button button--secondary _icon-ChatText" href="#">live chat</a>
+							</div>
+						</div>
+						<div class="footer__social-bar social-bar">
+							<a href="#" target="_blank" class="social-bar__item">
+								<div class="social-bar__image-holder">
+									<img src="img/facebook.svg" width="20" height="20" alt="facebook">
+								</div>
+							</a>
+							<a href="#" target="_blank" class="social-bar__item">
+								<div class="social-bar__image-holder">
+									<img src="img/spotify.svg" width="20" height="20" alt="spotify">
+								</div>
+							</a>
+							<a href="#" target="_blank" class="social-bar__item">
+								<div class="social-bar__image-holder">
+									<img src="img/youtube.svg" width="20" height="20" alt="youtube">
+								</div>
+							</a>
+							<a href="#" target="_blank" class="social-bar__item">
+								<div class="social-bar__image-holder">
+									<img src="img/linkedin.svg" width="20" height="20" alt="linkedin">
+								</div>
+							</a>
+							<a href="#" target="_blank" class="social-bar__item">
+								<div class="social-bar__image-holder">
+									<img src="img/instagram.svg" width="20" height="20" alt="instagram">
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="footer__right-col">
+						<ul class="footer__list">
+							<li class="footer__item"><a class="footer__link link _icon-CaretRight" href="#">Reviews</a></li>
+							<li class="footer__item"><a class="footer__link link _icon-CaretRight" href="#">Blog</a></li>
+							<li class="footer__item"><a class="footer__link link _icon-CaretRight" href="#">Our Team</a></li>
+							<li class="footer__item"><a class="footer__link link _icon-CaretRight" href="#">Case Studies</a>
+							</li>
+							<li class="footer__item"><a class="footer__link link _icon-CaretRight" href="#">Contact Us</a></li>
+							<li class="footer__item"><a class="footer__link link _icon-CaretRight" href="#">Podcasts</a></li>
+							<li class="footer__item"><a class="footer__link link _icon-CaretRight" href="#">Cookie Policy</a>
+							</li>
+							<li class="footer__item"><a class="footer__link link _icon-CaretRight" href="#">Privacy Policy</a>
+							</li>
+						</ul>
+						<div class="footer__services services-footer">
+							<div class="services-footer__header">
+								<h3 class="services-footer__subtitle subtitle">Services</h3>
+								<h2 class="services-footer__title title">What Can We Do?</h2>
+							</div>
+							<ul class="services-footer__list">
+								<li class="services-footer__item">
+									<a class="services-footer__link link" href="#">
+										<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path opacity="0.2"
+												d="M14.8808 6.7975L12.8902 5.66375C12.8502 5.59125 12.8083 5.52062 12.7652 5.45062L12.7577 3.20062C12.1286 2.6697 11.4048 2.26235 10.6245 2L8.62454 3.11812C8.54079 3.11812 8.45642 3.11812 8.37454 3.11812L6.37454 2C5.59449 2.2632 4.87118 2.6714 4.24267 3.20312L4.23267 5.45312C4.18892 5.52313 4.14704 5.59438 4.10767 5.66625L2.11767 6.7975C1.96078 7.59107 1.96078 8.40768 2.11767 9.20125L4.10829 10.335C4.14829 10.4075 4.19017 10.4781 4.23329 10.5481L4.24079 12.7981C4.86999 13.3296 5.59394 13.7373 6.37454 14L8.37454 12.8831C8.45829 12.8831 8.54267 12.8831 8.62454 12.8831L10.6245 14C11.4039 13.7366 12.1266 13.3284 12.7545 12.7969L12.7645 10.5469C12.8083 10.4769 12.8502 10.4056 12.8895 10.3337L14.8795 9.2025C15.037 8.40861 15.0374 7.59156 14.8808 6.7975ZM8.49954 10.5C8.00509 10.5 7.52174 10.3534 7.11062 10.0787C6.69949 9.80397 6.37906 9.41352 6.18984 8.95671C6.00063 8.49989 5.95112 7.99723 6.04758 7.51227C6.14404 7.02732 6.38214 6.58186 6.73178 6.23223C7.08141 5.8826 7.52686 5.6445 8.01182 5.54804C8.49677 5.45157 8.99944 5.50108 9.45625 5.6903C9.91307 5.87952 10.3035 6.19995 10.5782 6.61107C10.8529 7.0222 10.9995 7.50555 10.9995 8C10.9995 8.66304 10.7362 9.29893 10.2673 9.76777C9.79847 10.2366 9.16258 10.5 8.49954 10.5Z"
+												fill="#1C1C1C" />
+											<path
+												d="M8.49914 4.99983C7.9058 4.99983 7.32578 5.17577 6.83243 5.50542C6.33908 5.83506 5.95457 6.3036 5.7275 6.85178C5.50044 7.39995 5.44103 8.00315 5.55679 8.5851C5.67254 9.16704 5.95826 9.70159 6.37782 10.1211C6.79738 10.5407 7.33193 10.8264 7.91387 10.9422C8.49581 11.0579 9.09901 10.9985 9.64719 10.7715C10.1954 10.5444 10.6639 10.1599 10.9936 9.66654C11.3232 9.17319 11.4991 8.59317 11.4991 7.99983C11.4983 7.20443 11.182 6.44185 10.6195 5.87942C10.0571 5.31699 9.29454 5.00065 8.49914 4.99983ZM8.49914 9.99983C8.10358 9.99983 7.7169 9.88253 7.388 9.66276C7.0591 9.443 6.80276 9.13064 6.65138 8.76519C6.50001 8.39974 6.4604 7.99761 6.53757 7.60964C6.61474 7.22168 6.80522 6.86532 7.08493 6.58561C7.36463 6.30591 7.721 6.11543 8.10896 6.03825C8.49692 5.96108 8.89906 6.00069 9.26451 6.15207C9.62996 6.30344 9.94232 6.55979 10.1621 6.88869C10.3818 7.21758 10.4991 7.60426 10.4991 7.99983C10.4991 8.53026 10.2884 9.03897 9.91336 9.41404C9.53828 9.78911 9.02958 9.99983 8.49914 9.99983ZM15.3704 6.70045C15.3565 6.63004 15.3275 6.56346 15.2856 6.50522C15.2436 6.44698 15.1896 6.39846 15.1273 6.36295L13.2629 5.30045L13.2554 3.1992C13.2552 3.12683 13.2392 3.05538 13.2087 2.98977C13.1782 2.92416 13.1337 2.86597 13.0785 2.8192C12.4022 2.24714 11.6234 1.80874 10.7835 1.52733C10.7174 1.50494 10.6473 1.49665 10.5777 1.503C10.5082 1.50935 10.4408 1.5302 10.3798 1.5642L8.49914 2.61545L6.61664 1.56233C6.55561 1.52813 6.48809 1.50713 6.41843 1.50067C6.34878 1.49421 6.27854 1.50244 6.21227 1.52483C5.37287 1.80805 4.59492 2.24814 3.91977 2.8217C3.86462 2.8684 3.82025 2.92649 3.78972 2.99199C3.75919 3.05748 3.74321 3.12881 3.74289 3.20108L3.73352 5.3042L1.86914 6.3667C1.80677 6.40221 1.75277 6.45073 1.71082 6.50897C1.66887 6.56721 1.63994 6.63379 1.62602 6.7042C1.45539 7.56163 1.45539 8.44427 1.62602 9.3017C1.63994 9.37211 1.66887 9.4387 1.71082 9.49693C1.75277 9.55517 1.80677 9.60369 1.86914 9.6392L3.73352 10.7017L3.74102 12.8036C3.74124 12.8759 3.75718 12.9474 3.78771 13.013C3.81825 13.0786 3.86267 13.1368 3.91789 13.1836C4.59419 13.7556 5.37299 14.194 6.21289 14.4755C6.27903 14.4978 6.34913 14.5061 6.41867 14.4998C6.48821 14.4934 6.55565 14.4726 6.61664 14.4386L8.49914 13.3842L10.3816 14.4373C10.4561 14.4788 10.5401 14.5004 10.6254 14.4998C10.68 14.4998 10.7342 14.4909 10.786 14.4736C11.6252 14.1905 12.4031 13.7508 13.0785 13.178C13.1337 13.1313 13.178 13.0732 13.2086 13.0077C13.2391 12.9422 13.2551 12.8708 13.2554 12.7986L13.2648 10.6955L15.1291 9.63295C15.1915 9.59744 15.2455 9.54892 15.2875 9.49068C15.3294 9.43245 15.3583 9.36586 15.3723 9.29545C15.5419 8.43871 15.5413 7.55695 15.3704 6.70045ZM14.4329 8.88233L12.6473 9.89795C12.569 9.94244 12.5043 10.0072 12.4598 10.0855C12.4235 10.148 12.3854 10.2142 12.3466 10.2767C12.297 10.3555 12.2706 10.4467 12.2704 10.5398L12.261 12.5555C11.7811 12.9324 11.2464 13.2338 10.6754 13.4492L8.87414 12.4455C8.79936 12.4041 8.71523 12.3826 8.62977 12.383H8.61789C8.54227 12.383 8.46602 12.383 8.39039 12.383C8.30095 12.3808 8.21254 12.4023 8.13414 12.4455L6.33164 13.4517C5.75946 13.2379 5.22328 12.938 4.74164 12.5623L4.73477 10.5498C4.73446 10.4565 4.70805 10.3652 4.65852 10.2861C4.61977 10.2236 4.58164 10.1611 4.54602 10.0948C4.50184 10.0154 4.43707 9.94931 4.35852 9.90358L2.57102 8.88545C2.47852 8.30033 2.47852 7.70432 2.57102 7.1192L4.35352 6.1017C4.43175 6.05721 4.49653 5.99244 4.54102 5.9142C4.57727 5.8517 4.61539 5.78545 4.65414 5.72295C4.70374 5.64413 4.73017 5.55295 4.73039 5.45983L4.73977 3.4442C5.21972 3.06729 5.75443 2.7659 6.32539 2.55045L8.12414 3.5542C8.20243 3.59759 8.29092 3.61918 8.38039 3.6167C8.45602 3.6167 8.53227 3.6167 8.60789 3.6167C8.69736 3.61918 8.78586 3.59759 8.86414 3.5542L10.6666 2.54795C11.2388 2.76175 11.775 3.06166 12.2566 3.43733L12.2635 5.44983C12.2638 5.54313 12.2902 5.6345 12.3398 5.71358C12.3785 5.77608 12.4166 5.83858 12.4523 5.90483C12.4964 5.98427 12.5612 6.05034 12.6398 6.09608L14.4273 7.1142C14.521 7.69977 14.5221 8.29643 14.4304 8.88233H14.4329Z"
+												fill="#1C1C1C" />
+										</svg>
+										Amazon PPC Management Services</a>
+								</li>
+								<li class="services-footer__item">
+									<a class="services-footer__link link" href="#">
+										<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path opacity="0.2"
+												d="M13.8542 12.5625L13.0629 13.3538C12.9692 13.4475 12.842 13.5001 12.7095 13.5001C12.5769 13.5001 12.4498 13.4475 12.356 13.3538L9.25042 10.25C9.19283 10.1923 9.122 10.1495 9.0441 10.1254C8.9662 10.1014 8.8836 10.0967 8.80348 10.1119C8.72337 10.127 8.64818 10.1615 8.58446 10.2124C8.52074 10.2633 8.47044 10.329 8.43792 10.4038L7.22167 13.2019C7.18028 13.293 7.11248 13.3696 7.02706 13.4218C6.94165 13.474 6.84253 13.4993 6.74256 13.4945C6.64258 13.4898 6.54634 13.4551 6.46628 13.395C6.38623 13.3349 6.32606 13.2522 6.29355 13.1575L3.02605 3.15251C2.9993 3.06564 2.99674 2.97312 3.01864 2.88489C3.04054 2.79667 3.08608 2.71609 3.15035 2.65182C3.21463 2.58754 3.29521 2.54201 3.38343 2.5201C3.47165 2.4982 3.56417 2.50076 3.65105 2.52751L13.6573 5.79251C13.752 5.82502 13.8347 5.8852 13.8948 5.96525C13.9549 6.0453 13.9895 6.14154 13.9943 6.24152C13.9991 6.3415 13.9738 6.44061 13.9216 6.52603C13.8694 6.61145 13.7928 6.67924 13.7017 6.72064L10.9035 7.93751C10.8288 7.97009 10.7632 8.02044 10.7124 8.08419C10.6616 8.14794 10.6271 8.22314 10.612 8.30325C10.5969 8.38336 10.6016 8.46594 10.6258 8.54381C10.6499 8.62168 10.6927 8.69247 10.7504 8.75001L13.8548 11.8544C13.9013 11.9009 13.9382 11.9561 13.9634 12.0169C13.9886 12.0776 14.0015 12.1428 14.0014 12.2086C14.0014 12.2744 13.9883 12.3395 13.9631 12.4002C13.9378 12.461 13.9008 12.5161 13.8542 12.5625Z"
+												fill="#1C1C1C" />
+											<path
+												d="M11.1022 8.39578L13.9003 7.17953C14.0846 7.0978 14.2399 6.96225 14.3458 6.79068C14.4518 6.61911 14.5033 6.41952 14.4938 6.21812C14.4843 6.01671 14.4141 5.82289 14.2924 5.66208C14.1708 5.50128 14.0034 5.381 13.8122 5.31703L3.80717 2.05016C3.63219 1.99408 3.44515 1.98729 3.26657 2.03054C3.08799 2.07379 2.92477 2.16541 2.79485 2.29533C2.66492 2.42526 2.5733 2.58847 2.53005 2.76706C2.4868 2.94564 2.49359 3.13268 2.54967 3.30766L5.81655 13.3127C5.87819 13.5057 5.99763 13.6751 6.1587 13.7981C6.31977 13.9211 6.51471 13.9916 6.71717 14.0002H6.76592C6.96015 14.0009 7.15031 13.9445 7.31269 13.8379C7.47507 13.7313 7.60248 13.5793 7.67905 13.4008L8.8953 10.6027L11.9997 13.707C12.0925 13.7999 12.2028 13.8736 12.3241 13.9239C12.4455 13.9741 12.5755 14 12.7069 14C12.8382 14 12.9683 13.9741 13.0896 13.9239C13.2109 13.8736 13.3212 13.7999 13.414 13.707L14.2065 12.9145C14.2994 12.8217 14.3731 12.7114 14.4234 12.5901C14.4736 12.4687 14.4995 12.3387 14.4995 12.2073C14.4995 12.076 14.4736 11.946 14.4234 11.8246C14.3731 11.7033 14.2994 11.593 14.2065 11.5002L11.1022 8.39578ZM12.7065 13.0002L9.60217 9.89578C9.48691 9.78037 9.34517 9.69491 9.1893 9.64684C9.03344 9.59877 8.86818 9.58956 8.70794 9.62C8.5477 9.65045 8.39734 9.71963 8.26996 9.82151C8.14259 9.9234 8.04207 10.0549 7.97717 10.2045L6.76342 12.9952L3.49967 3.00016L13.4915 6.26328L10.7015 7.47641C10.5519 7.54131 10.4204 7.64183 10.3185 7.7692C10.2166 7.89658 10.1475 8.04694 10.117 8.20718C10.0866 8.36742 10.0958 8.53268 10.1439 8.68854C10.1919 8.84441 10.2774 8.98615 10.3928 9.10141L13.4997 12.207L12.7065 13.0002Z"
+												fill="#1C1C1C" />
+										</svg>
+										Amazon DSP (Demand-Side Platform)</a>
+								</li>
+								<li class="services-footer__item">
+									<a class="services-footer__link link" href="#">
+										<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path opacity="0.2" d="M6.5 15L7.5 10L3.5 8.5L10.5 1L9.5 6L13.5 7.5L6.5 15Z"
+												fill="#1C1C1C" />
+											<path
+												d="M13.9859 7.38556C13.967 7.30542 13.9286 7.2312 13.874 7.16949C13.8195 7.10778 13.7506 7.06049 13.6734 7.03181L10.0728 5.68119L10.989 1.09806C11.0098 0.991575 10.9953 0.881229 10.9479 0.783675C10.9004 0.686122 10.8225 0.606654 10.7259 0.557263C10.6293 0.507872 10.5193 0.491239 10.4124 0.509872C10.3055 0.528506 10.2076 0.581397 10.1334 0.660562L3.13342 8.16056C3.07657 8.22047 3.03544 8.29353 3.01371 8.37321C2.99198 8.45289 2.99033 8.53671 3.0089 8.61718C3.02747 8.69766 3.06569 8.77228 3.12013 8.83438C3.17458 8.89648 3.24356 8.94413 3.32092 8.97306L6.92279 10.3237L6.00904 14.9018C5.9883 15.0083 6.00275 15.1186 6.05021 15.2162C6.09768 15.3138 6.17559 15.3932 6.27219 15.4426C6.36878 15.492 6.47882 15.5086 6.58569 15.49C6.69257 15.4714 6.79049 15.4185 6.86467 15.3393L13.8647 7.83931C13.9205 7.77939 13.9607 7.70668 13.9819 7.62756C14.003 7.54844 14.0044 7.46534 13.9859 7.38556ZM7.33467 13.3749L7.98904 10.1012C8.01246 9.98508 7.99391 9.86443 7.93668 9.76073C7.87945 9.65703 7.78726 9.57701 7.67654 9.53494L4.37404 8.29431L9.66279 2.62806L9.00904 5.90181C8.98562 6.01792 9.00418 6.13857 9.06141 6.24227C9.11864 6.34597 9.21083 6.42598 9.32154 6.46806L12.6215 7.70556L7.33467 13.3749Z"
+												fill="#1C1C1C" />
+										</svg>
+										Amazon Marketing Strategy</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright copyright-footer">
+					<div class="copyright-footer__logo-holder">
+						<img src="img/copyright-logo.svg" width="50" height="32" alt="amazon ads">
+					</div>
+					<div class="copyright-footer__privacy-policy">
+						<p>On our website, we use cookies to enhance the user experience. This allows us to provide
+							personalized
+							content, analyze traffic, and optimize functionality. By continuing to use this site, you agree to
+							our
+							cookie usage policy. Learn more about how we process your data in our <a class="link"
+								href="#">Privacy
+								Policy</a>.</p>
+					</div>
+					<div class="copyright-footer__copyright">
+						<p>Copyright © 2023 anavigator.co. All rights reserved. The content, design, and images on this
+							website are
+							protected by copyright laws. Unauthorized use, reproduction, or distribution is strictly
+							prohibited. Any
+							infringement will be subject to legal action.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="hero__bg-holder bg-holder">
+				<picture>
+					<source media="(min-width: 1280px)" srcset="img/footer-bg-desc.webp" type="image/webp">
+					<img src="img/footer-bg.png" width="1279" height="568" alt="image">
+				</picture>
+			</div>
+			<div class="noise"></div>
+		</footer>
+		<div class="social-widget">
+			<div class="social-widget__left-col">
+				<a class="social-widget__link" href="#">
+					<img src="img/facebook.svg" width="20" height="20" alt="facebook">
+				</a>
+				<a class="social-widget__link" href="#">
+					<img src="img/spotify.svg" width="20" height="20" alt="spotify">
+				</a>
+				<a class="social-widget__link" href="#">
+					<img src="img/youtube.svg" width="20" height="20" alt="youtube">
+				</a>
+				<a class="social-widget__link" href="#">
+					<img src="img/linkedin.svg" width="20" height="20" alt="linkedin">
+				</a>
+				<a class="social-widget__link" href="#">
+					<img src="img/instagram.svg" width="20" height="20" alt="instagram">
+				</a>
+			</div>
+			<div class="social-widget__right-col">
+				<div class="social-widget__button _icon-CaretUp-1 link">networks</div>
+			</div>
+		</div>
+		<div style="display: none;" id="modal-contact-1" class="modal-contact">
+			<div class="modal-contact__inner">
+				<div class="modal-contact__header">
+					<h2 class="modal-contact__title">Wish to boost your sales on Amazon?</h2>
+					<div class="modal-contact__text-holder">
+						<p>Please leave your contact information, and our Amazon marketing expert will get in touch with you
+							shortly to discuss your needs and develop a success strategy.</p>
+					</div>
+				</div>
+				<div class="modal-contact__form-holder">
+					<div id="note-1"></div>
+					<form class="form form--full" id="ajax-contact-form" data-form-validate="true">
+						<div class="form__inner">
+							<div class="form__input-holder form__input-holder--name">
+								<span>
+									<label for="fname">Your name</label>
+									<input id="fname" type="text" value="" name="name-client" placeholder="ex. Michael Smith"
+										required>
+								</span>
+							</div>
+							<div class="form__input-holder form__input-holder--email">
+								<span>
+									<label for="email">Your email</label>
+									<input id="email" type="text" value="" name="email-client" placeholder="name@gmail.com"
+										required>
+								</span>
+							</div>
+							<div class="form__input-holder form__input-holder--phone">
+								<span>
+									<label for="phone">Your phone</label>
+									<input id="phone" type="tel" value="" name="phone-client" placeholder="+38 (XXX) XXX XX XX">
+								</span>
+							</div>
+							<input type="hidden" name="url">
+							<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+							<div class="form__button-holder">
+								<button class="button button--main" type="submit">
+									Contact me
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-contact__close">
+					<span class="_icon-X"></span>
+				</div>
+			</div>
+		</div>
+		<div style="display: none;" id="modal-thk-1" class="modal-thk">
+			<div class="modal-thk__inner">
+				<div class="modal-thk__icon-holder">
+					<span class="_icon-Bell"></span>
+				</div>
+				<div class="modal-thk__content content-modal-thk">
+					<div class="content-modal-thk__left-col">
+						<h3 class="content-modal-thk__title">Thank you for your request!</h3>
+					</div>
+					<div class="content-modal-thk__right-col">
+						<div class="content-modal-thk__text-holder">
+							<p>Our manager will contact you soon to discuss all the details of cooperation. And while you wait
+								for the call, visit our contact page.</p>
+						</div>
+						<a class="content-modal-thk__button button button--secondary _icon-ShareFat button--icons"
+							href="#">Contacts</a>
+					</div>
+				</div>
+				<div class="modal-thk__close">
+					<span class="_icon-Minus"></span>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="files/jquery-3.7.1.min.js"></script>
+	<script src="files/jquery.fancybox.min.js"></script>
+	<script src="files/swiper-bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
